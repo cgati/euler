@@ -39,7 +39,6 @@ public class BigInt {
         for (int i = op1.length() - 1; i >= 0; i--) {
             int a = Integer.parseInt(String.valueOf(op1.charAt(i)));
             int b = Integer.parseInt(String.valueOf(op2.charAt(i)));
-            // need to implement carry
             result = result.substring(0, i) + String.valueOf((a + b + carry) % 10) + result.substring(i + 1);
             if (a + b + carry > 9) {
                 carry = 1;

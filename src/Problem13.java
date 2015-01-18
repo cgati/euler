@@ -113,7 +113,6 @@ public class Problem13 {
         StringBuilder s2 = new StringBuilder();
 
         for (int j = 0; j < 51; j++) {
-            //grid[i][jIndex] = Integer.parseInt(String.valueOf(str.charAt((i * 60) + j))) * 10 + Integer.parseInt(String.valueOf(str.charAt((i * 60) + j + 1)));
             if (j ==50) {
                 continue;
             }
